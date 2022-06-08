@@ -1,0 +1,117 @@
+.testSection {
+    display: flex;
+    /* width: 100vw; */
+    height: 700px;
+    width: 100%;
+    /* max-width: 1100px; */
+    /* height: 800px; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #1f2641;
+    margin: 0 auto;
+
+    /* position: absolute; */
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    /* background: yellow; */
+        z-index: 1;
+        height: 860px;
+        width: 100%;
+        max-width: 1100px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0 24px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+}
+
+.forImg img{
+    border-radius: 50%;
+    width: 40%;
+    border: 1px solid #2b6777;
+    padding: 7px;
+    align-items: center;
+    border-bottom: 1rem;
+}
+.testDiv{
+    width: 500px;
+    height: 50px;
+    /* background-color: whitesmoke; */
+    position: relative;
+    padding: 2rem;
+    margin: 2rem 0;
+
+    border-radius: 30px;
+    -webkit-box-shadow: 0px 0px 17px -11px rgba(0, 0, 0, 0.58);
+        box-shadow: 0px 0px 17px -11px rgba(0, 0, 0, 0.58);
+    
+}
+
+.header h2{
+    font-size: 2rem;
+    color: whitesmoke;
+}
+
+.forImg{
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: grey; 
+        margin-bottom: 1rem;
+}
+.forImg span{
+    color: #2b6777;
+    font-weight: 500;
+    font-style: italic;
+    margin-top: 1rem;
+    
+}
+
+.forImg .page{
+    display: block;
+    margin-top: 1rem;
+}
+
+.testSection .slick-arrow.slick-prev,
+.testSection .slick-arrow.slick-next{
+    /* background: black; */
+    width: 40px;
+    height: 40px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    border-radius: 5px;
+    
+        
+}
+.slick-prev::before,
+.slick-next::before{
+    display: none;
+}
+/* .slick-prev{
+    left:3% !important;
+    z-index:1;
+} */
+@media screen and (max-width: 520px) {
+    .testDiv {
+        padding: 1rem;
+        max-width: 400px;
+    
+    }
+}
+@media screen and (max-width: 400px) {
+    .testDiv {
+        padding: 1rem;
+        max-width: 300px;
+
+    }
+}
